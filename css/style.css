@@ -113,7 +113,7 @@ main {
 footer {
     width: 100%;
     height: 90px;
-    background-color: rgb(150, 123, 17);
+    background-color: #222222;
     color: white;
 }
 
@@ -129,7 +129,6 @@ footer {
 .col-l {
     width: 10%;
     height: 100%;
-    background-color: crimson;
 }
 .col-l ul {
     display: flex;
@@ -155,7 +154,6 @@ footer .fa-angle-up {
 .col-center {
     width: 80%;
     height: 100%;
-    background-color: darkcyan;
 }
 
 .col-center ul {
@@ -171,5 +169,15 @@ footer .fa-angle-up {
 .col-r {
     width: 10%;
     height: 100%;
-    background-color: darkorchid;
+    background-color: #4A4A4A;
+}
+
+.meeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    height: 100%;
+    width: 100%;
+    font-size: 0.8em;
 }
