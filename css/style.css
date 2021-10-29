@@ -149,10 +149,22 @@ footer {
     color: white;
 }
 
+footer .fa-angle-up {
+    font-size: 0.8em;
+}
 .col-center {
     width: 80%;
     height: 100%;
     background-color: darkcyan;
+}
+
+.col-center ul {
+    height: 100%;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
 }
 
 .col-r {
