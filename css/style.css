@@ -69,12 +69,12 @@ header {
 main {
     width: 100%;
     height: calc(100% - 160px);
-    background-color: chocolate;
+    background-color: black;
     overflow: auto;
 }
 
 .main-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     
 }
@@ -89,10 +89,11 @@ main {
     background-image: url(../img/mario.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 100px;
+    min-height: 110px;
     min-width: 200px;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 3px;
 }
 
 .list-f {
