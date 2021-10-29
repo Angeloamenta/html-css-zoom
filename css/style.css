@@ -114,6 +114,11 @@ footer {
     width: 100%;
     height: 90px;
     background-color: rgb(150, 123, 17);
+    color: white;
+}
+
+.block {
+    display: block;
 }
 
 .footer-nav {
@@ -125,6 +130,23 @@ footer {
     width: 10%;
     height: 100%;
     background-color: crimson;
+}
+.col-l ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.col-l li {
+    width: 100%;
+}
+
+.fa-solid {
+    font-size: 1.5em;
+    color: white;
 }
 
 .col-center {
