@@ -70,11 +70,13 @@ main {
     width: 100%;
     height: calc(100% - 160px);
     background-color: chocolate;
+    overflow: auto;
 }
 
 .main-container {
     width: 90%;
     margin: 0 auto;
+    
 }
 
 .main-container ul {
