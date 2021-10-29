@@ -129,6 +129,7 @@ footer {
 
 .block {
     display: block;
+    font-size: 0.9em;
 }
 
 .footer-nav {
@@ -154,12 +155,12 @@ footer {
 }
 
 footer .fa-solid {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: white;
 }
 
 footer .fa-angle-up {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 .col-center {
     width: 80%;
