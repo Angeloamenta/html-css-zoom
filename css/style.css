@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .relative {
     position: relative;
 }
@@ -62,12 +66,27 @@ main {
     width: 90%;
 }
 
-/* .main-container ul li a {
-    display: inline-block;
+.main-container ul li {
     background-image: url(../img/mario.jpg);
     background-position: center;
     background-size: cover;
-} */
+    min-height: 200px;
+    min-width: 300px;
+    flex-direction: column;
+}
+
+.list-f {
+    justify-content: flex-end;
+}
+
+.li-name {
+    display: flex;
+    background-color: gray;
+    color: white;
+    width: 35%;
+    font-size: 0.9em;
+    padding: 5px;
+}
 
 /* footer */
 footer {
