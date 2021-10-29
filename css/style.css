@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    height: 100vh;
+    min-width: 500px;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+
+
 .flex {
     display: flex;
 }
@@ -64,15 +74,23 @@ main {
 
 .main-container {
     width: 90%;
+    margin: 0 auto;
+}
+
+.main-container ul {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .main-container ul li {
     background-image: url(../img/mario.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 200px;
-    min-width: 300px;
+    min-height: 100px;
+    min-width: 200px;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .list-f {
@@ -83,7 +101,7 @@ main {
     display: flex;
     background-color: gray;
     color: white;
-    width: 35%;
+    width: 55%;
     font-size: 0.9em;
     padding: 5px;
 }
