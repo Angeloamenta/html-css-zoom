@@ -58,13 +58,23 @@ header {
     margin: 5px;
     border-radius: 5px;
     padding: 3px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .speaker{
     align-items: baseline;
 }
+.speaker a {
+    margin: 0 3px;
+}
 
+.arrow {
+    width: 1.6em;
+    height: 1.6em;
+    justify-content: center;
+    align-items: center;
+}
+    
 /* main */
 main {
     width: 100%;
