@@ -7,3 +7,71 @@
 .flex {
     display: flex;
 }
+
+a {
+    text-decoration: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+/* header */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.header-nav {
+    justify-content: flex-end;
+}
+
+.header-nav {
+    color: white;
+}
+
+.header-nav a{
+    color: white;
+}
+
+.header-nav> div {
+    background-color: #4A4A4A;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.8em;
+}
+
+.speaker{
+    align-items: baseline;
+}
+
+/* main */
+main {
+    width: 100%;
+    height: calc(100% - 160px);
+    background-color: chocolate;
+}
+
+.main-container {
+    width: 90%;
+}
+
+/* .main-container ul li a {
+    display: inline-block;
+    background-image: url(../img/mario.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+/* footer */
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(150, 123, 17);
+}
