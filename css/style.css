@@ -102,11 +102,11 @@ main {
 
 .li-name {
     display: flex;
-    background-color: rgba(1, , , 0.5);
     color: white;
     width: 55%;
-    font-size: 0.9em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* footer */
